@@ -1,50 +1,120 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .header {
-            text-align: center;
-            padding: 20px;
-        }
-        .section {
-            margin: 20px 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNova Solutions</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>BANGORBOO</h1>
-            <p>Halaman untuk Fan Media</p>
-        </div>
 
-        <div class="section">
-            <h2>Tentang kita</h2>
-            <p>Sebuah proyek kecil dari satu orang yang membuat media fan yang terinspirasi dari permainan Zenless Zone Zero.</p>
-        </div>
+  <!-- Header -->
+  <header>
+    <h1>TechNova Solutions</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#sejarah">Sejarah</a>
+      <a href="#visi">Visi & Misi</a>
+      <a href="#produk">Layanan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
 
-        <div class="section">
-            <h2>Target</h2>
-            <p>Menghubungkan kreator dan fan dengan media sumber inspirasi.</p>
-        </div>
+  <!-- Home -->
+  <section id="home" class="home">
+    <h2>Selamat Datang di TechNova Solutions</h2>
+    <p>
+      Kami adalah perusahaan teknologi yang berfokus pada inovasi digital, pengembangan perangkat lunak, 
+      dan solusi berbasis kecerdasan buatan.  
+      Bersama kami, ciptakan masa depan yang lebih efisien dan cerdas untuk bisnis Anda.
+    </p>
+  </section>
 
-        <div class="section">
-            <h2>Kontak</h2>
-            <p>Link: </p>
-            <a href=”linktr.ee/noxtura”>linktr.ee/noxtura</a>       
-        </div>
+  <!-- Tentang Kami -->
+  <section id="tentang" class="tentang">
+    <h2>Tentang TechNova Solutions</h2>
+    <p>
+      <strong>TechNova Solutions</strong> merupakan perusahaan teknologi yang berdiri dengan semangat untuk menghadirkan 
+      solusi digital modern bagi berbagai industri.  
+      Kami percaya bahwa teknologi bukan hanya alat, tetapi jembatan menuju kemajuan dan efisiensi dalam kehidupan manusia.
+    </p>
+  </section>
+
+  <!-- Sejarah -->
+  <section id="sejarah" class="sejarah">
+    <h2>Sejarah Kami</h2>
+    <p>
+      Berdiri pada tahun <strong>2020</strong>, TechNova Solutions dimulai dari tim kecil pengembang software di Jakarta 
+      yang memiliki mimpi besar untuk membawa teknologi Indonesia ke panggung global.  
+      Dengan komitmen dan inovasi, kini TechNova telah menjadi mitra digital bagi puluhan perusahaan di berbagai sektor.
+    </p>
+  </section>
+
+  <!-- Visi dan Misi -->
+  <section id="visi" class="visi">
+    <h2>Visi & Misi</h2>
+    <div class="visi-misi">
+      <div>
+        <h3>Visi</h3>
+        <p>
+          Menjadi perusahaan teknologi terdepan di Asia Tenggara yang menghadirkan inovasi digital 
+          untuk mendorong kemajuan bisnis dan masyarakat.
+        </p>
+      </div>
+      <div>
+        <h3>Misi</h3>
+        <ul>
+          <li>Mengembangkan solusi digital yang efisien dan mudah digunakan.</li>
+          <li>Mendukung transformasi bisnis melalui teknologi berbasis data dan AI.</li>
+          <li>Membangun kemitraan yang berkelanjutan dengan klien dan komunitas.</li>
+          <li>Mendorong kreativitas dan kolaborasi di dalam tim.</li>
+          <li>Menciptakan dampak positif bagi masyarakat melalui inovasi teknologi.</li>
+        </ul>
+      </div>
     </div>
+  </section>
+
+  <!-- Produk / Layanan -->
+  <section id="produk" class="produk">
+    <h2>Layanan Kami</h2>
+    <div class="produk-container">
+      <div class="produk-item">
+        <h3>Pengembangan Aplikasi Kustom</h3>
+        <p>
+          Kami menciptakan aplikasi sesuai kebutuhan bisnis Anda dengan desain modern, performa optimal, dan keamanan tinggi.
+        </p>
+      </div>
+      <div class="produk-item">
+        <h3>Sistem Artificial Intelligence</h3>
+        <p>
+          Tingkatkan efisiensi dan analisis bisnis Anda dengan solusi AI cerdas untuk pengambilan keputusan otomatis.
+        </p>
+      </div>
+      <div class="produk-item">
+        <h3>Layanan Cloud & Keamanan Data</h3>
+        <p>
+          Jaminan penyimpanan data aman dengan infrastruktur cloud handal yang siap mendukung operasi bisnis Anda.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="kontak">
+    <h2>Hubungi Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama Anda" required>
+      <input type="email" placeholder="Email Anda" required>
+      <textarea placeholder="Pesan Anda" rows="4" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 TechNova Solutions | Dibuat oleh Kelompok 3</p>
+  </footer>
+
 </body>
 </html>
